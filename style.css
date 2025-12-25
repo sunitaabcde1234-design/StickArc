@@ -124,11 +124,11 @@ body {
 /* Request button style */
 .request-btn {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 34px;
     color: white;
     background-color: rgba(0, 0, 0, 0.25);
-    padding: 8px 24px;
-    border-radius: 20px;
+    padding: 18px 34px;
+    border-radius: 30px;
     transition: all 0.3s ease;
 }
 
@@ -208,3 +208,4 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 6px 15px rgba(0,0,0,0.25);
 }
+
