@@ -1,0 +1,210 @@
+/* style.css */
+
+/* Full screen gradient background */
+html, body {
+    height: 100%; /* Ensure full height for gradient */
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #ff4800, #ffe600);
+    display: flex;             /* Use flex for vertical + horizontal centering */
+    justify-content: center;   /* Horizontal center */
+    align-items: center;       /* Vertical center */
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Image styling */
+.top-image img {
+    width: 1080px;              /* Exact width */
+    height: 180px;              /* Exact height */
+    object-fit: cover;          /* Image distort na ho */
+}
+/* Buttons container */
+.buttons {
+    position: absolute;         /* Overlay on banner */
+    top: 50%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 15px;                  /* Space between buttons */
+}
+
+/* Button images */
+.buttons img {
+    width: 80px;                /* Adjust as needed */
+    height: auto;
+    cursor: pointer;            /* Button feel */
+}html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, #FF8C00, #FFFF00);
+}
+
+.top-image {
+    width: 100%;
+    display: flex;              /* Center image horizontally */
+    justify-content: center;
+    margin-top: 5px;           /* Thoda gap upar se */
+}
+
+/* Buttons container */
+.buttons {
+    position: absolute;         /* Overlay on banner */
+    top: 50%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 15px;                  /* Space between buttons */
+}
+
+/* Button wrapper */
+.btn {
+    position: relative;
+    width: 80px;      /* button size */
+    height: 80px;
+    cursor: pointer;
+}
+
+/* Images inside button */
+.btn img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* Hover image hidden by default */
+.btn .hover {
+    display: none;
+}
+
+/* On hover: swap images */
+.btn:hover .idle {
+    display: none;
+}
+
+.btn:hover .hover {
+    display: block;
+}
+/* Search box styling */
+
+
+/* Hover effect */
+.search-box button:hover {
+    background-color: #e60000ff;
+}
+.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: #ff6a00;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.back-btn:hover {
+    background-color: #e60000ff;
+}
+/* Request box below search */
+.request-box {
+    position: absolute;
+    top: 88%;                     /* Search box ke niche */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+}
+
+/* Request button style */
+.request-btn {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 8px 24px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.request-btn:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+/* Image below request button */
+.items-page {
+    position: absolute;
+    top: 96%;                     /* Request button ke niche */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+/* Image styling */
+.items-page img {
+    width: 1080px;                /* Exact width */
+    height: 2160px;               /* Exact height */
+    object-fit: cover;            /* Distortion na ho */
+    display: block;
+}
+.request-image-btn {
+    position: absolute;
+    top: 5%;                     /* center vertically */
+    left: 50%;                    /* center horizontally */
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.request-image-btn1 {
+    position: absolute;
+    top: 10%;                     /* center vertically */
+    left: 50%;                    /* center horizontally */
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+/* Button image size */
+.request-image-btn img {
+    width: 200px;                 /* adjust as needed */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+
+/* Hover effect */
+.request-image-btn:hover img {
+    transform: scale(1.1);}
+    .download-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: linear-gradient(to right, #ff6a00, #ffb347);
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.request-image-btn1:hover img {
+    transform: scale(1.1);}
+    .download-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: linear-gradient(to right, #ff6a00, #ffb347);
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.download-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
